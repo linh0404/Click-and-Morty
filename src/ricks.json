@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Rick Sanchez",
+        "image": "RickSanchez.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Doofus Rick",
+        "image": "DoofusRick.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "Tiny Rick",
+        "image": "TinyRick.png",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "Pickle Rick",
+        "image": "PickleRick.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "Toxic Rick",
+        "image": "ToxicRick.jpg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "Evil Rick",
+        "image": "EvilRick.jpg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "Quantum Rick",
+        "image": "QuantumRick.png",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "Cop Rick",
+        "image": "CopRick.jpg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "name": "Rick D. Sanchez III",
+        "image": "RickDSanchez.png",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "name": "Rick D-99",
+        "image": "RickD99.png",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "name": "Commander Rick",
+        "image": "CommanderRick.png",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "name": "Cool Rick",
+        "image": "CoolRick.png",
+        "clicked": false
+    }
+]

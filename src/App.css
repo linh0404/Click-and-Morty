@@ -1,0 +1,103 @@
+.card-container {
+  width: 50vw;
+  display: flex;
+  margin: 0 auto;
+  padding: 25px; 
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+.state-container {
+  width: 50vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.state, .message {
+  width: 20vw;
+  height: 60px;
+  display: flex;
+  padding: 25px; 
+  justify-content: center;
+  align-items: center;
+  color: #12AEC6;
+  font-size: 32px;
+  background: black;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.message {
+  font-size: 24px;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.container-appear {
+  opacity: 0;
+}
+
+.container-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s 4s linear;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.messages-appear {
+  opacity: 0;
+  transform: translateY(-15px)
+}
+
+.messages-appear-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1s, transform 1s;
+}
+
+.slide {
+  animation: slide 1s ease;
+  color: greenyellow;
+}
+
+.wiggle {
+  animation: wiggle 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  color: red;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes wiggle {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
